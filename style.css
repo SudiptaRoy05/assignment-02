@@ -70,10 +70,14 @@ body {
 
 
 @media screen and (max-width: 576px) {
+    .nav-options {
+        border: none;
+      }
     .nav-item{
         display: none;
     }
     #ham-bargur{
         display: block;
+        color: white;
     }
 }
