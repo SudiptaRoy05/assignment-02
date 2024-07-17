@@ -16,6 +16,9 @@ header {
     ),
     linear-gradient(0deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
+main{
+    background-color: black;
+}
 
 * {
   margin: 0%;
@@ -177,7 +180,51 @@ header {
   border-radius: 100%;
   background-color: rgb(230, 83, 60);
 }
+.play {
+  display: none;
+}
 /* banner section style end  */
+
+/* main section habit area start  */
+.habit-content {
+  width: 80vw;
+  margin: 0px auto;
+  padding-top: 100px;
+  border: 1px solid steelblue;
+}
+
+.habit-heading-area {
+  width: 65vw;
+  margin: 0 auto;
+  border: 1px solid saddlebrown;
+  text-align: center;
+}
+.habit-heading-area h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+.habit-heading-area p{
+    color: white;
+    font-size: 1rem;
+}
+
+
+.habit-image-area{
+    /* display: grid; */
+    /* margin: auto;
+    grid-template-columns: repeat(4, 1fr); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container img{
+    width: 60%;
+    border-radius: 100px ;
+}
+
+/* main section habit area end  */
 
 @media screen and (max-width: 576px) {
   .nav-options {
@@ -207,7 +254,7 @@ header {
     display: flex;
     gap: 20px;
   }
-  .btn button{
+  .btn button {
     font-size: 14px;
     padding: 10px 20px;
   }
@@ -239,7 +286,7 @@ header {
     position: absolute;
     right: 220px;
     bottom: 40px;
-    
+
     padding: 10px;
     display: flex;
     align-items: center;
@@ -252,10 +299,10 @@ header {
     border-radius: 100%;
     background-color: rgb(230, 83, 60);
   }
-  .play{
+  .play {
+    display: block;
     position: absolute;
     left: 26px;
     top: 32px;
   }
-  
 }
