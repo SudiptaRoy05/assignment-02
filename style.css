@@ -3,13 +3,18 @@
 body {
   width: 100vw;
   height: 100vh;
+  /* background-color: black; */
   font-family: "Inter", sans-serif;
-  background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, 0) 100%
-  );
   background-repeat: no-repeat;
+}
+
+header {
+  background: linear-gradient(
+      180deg,
+      rgb(17, 17, 17),
+      rgba(119, 119, 119, 0) 100%
+    ),
+    linear-gradient(0deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
 * {
@@ -22,11 +27,12 @@ body {
 }
 
 .text-primary {
-  color: rgb(230, 83, 60);
+  color: white;
 }
 .text-secondary {
   color: rgba(255, 255, 255, 0.5);
 }
+
 .bg-primary {
   background-color: rgb(230, 83, 60);
 }
@@ -68,16 +74,117 @@ body {
 }
 /* navbar styles end  */
 
+/* banner section style start  */
+.banner-area {
+  width: 100vw;
+}
+.banner-content {
+  width: 80vw;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-left-area {
+  width: 40%;
+  margin-top: 96px;
+  margin-right: 167px;
+  margin-bottom: 76px;
+}
+.banner-left-area h1 {
+  font-size: 78px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 28px;
+}
+.banner-left-area p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+.btn-primary {
+  background-color: rgb(230, 83, 60);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 42px;
+  padding: 15px 32px;
+  border: none;
+}
+.btn-secondary {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 42px;
+  padding: 15px 32px;
+  /* margin-left: 14px; */
+}
+.banner-right-area {
+  margin-right: 10%;
+}
+#banner-inner{
+    font-size: 4.75rem;
+    font-weight: 400;
+}
+
+.banner-right-area img{
+    width: 100%;
+}
+.card-1 {
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  letter-spacing: 1px;
+  padding: 20px;
+}
+.card-1 h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  /* text-align: center; */
+}
+.card-1 p {
+  font-size: 0.8rem;
+}
+
+#card1 {
+  width: 193px;
+  height: 80px;
+  /* transform: translateX(200px) translateY(-400px); */
+  position: absolute;
+  right: 200px;
+  bottom: 600px;
+}
+#card2 {
+  width: 206px;
+  height: 96px;
+  position: absolute;
+  right: 570px;
+  bottom: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(230, 83, 60);
+}
+/* banner section style end  */
 
 @media screen and (max-width: 576px) {
-    .nav-options {
-        border: none;
-      }
-    .nav-item{
-        display: none;
-    }
-    #ham-bargur{
-        display: block;
-        color: white;
-    }
+  .nav-options {
+    border: none;
+  }
+  .nav-item {
+    display: none;
+  }
+  #ham-bargur {
+    display: block;
+    color: white;
+  }
 }
