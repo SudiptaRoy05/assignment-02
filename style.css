@@ -32,6 +32,9 @@ header {
 .text-secondary {
   color: rgba(255, 255, 255, 0.5);
 }
+.text-info {
+  color: rgb(230, 83, 60);
+}
 
 .bg-primary {
   background-color: rgb(230, 83, 60);
@@ -124,13 +127,13 @@ header {
 .banner-right-area {
   margin-right: 10%;
 }
-#banner-inner{
-    font-size: 4.75rem;
-    font-weight: 400;
+#banner-inner {
+  font-size: 4.75rem;
+  font-weight: 400;
 }
 
-.banner-right-area img{
-    width: 100%;
+.banner-right-area img {
+  width: 100%;
 }
 .card-1 {
   border: 1px solid white;
@@ -168,11 +171,11 @@ header {
   justify-content: center;
   gap: 20px;
 }
-.circle{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(230, 83, 60);
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: rgb(230, 83, 60);
 }
 /* banner section style end  */
 
@@ -187,4 +190,72 @@ header {
     display: block;
     color: white;
   }
+  /* ..banner-area */
+  .banner-content {
+    flex-direction: column;
+    padding: 0;
+  }
+  .banner-left-area {
+    width: 80vw;
+    margin: 0 auto 20px;
+  }
+  .banner-left-area h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  .btn {
+    display: flex;
+    gap: 20px;
+  }
+  .btn button{
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .banner-right-area {
+    width: 100%;
+  }
+  #card1 {
+    width: 135.91px;
+    height: 64.09px;
+    /* transform: translateX(200px) translateY(-400px); */
+    padding: 10px;
+    position: absolute;
+    right: 57px;
+    bottom: 247px;
+  }
+
+  .card-1 h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    /* text-align: center; */
+  }
+  .card-1 p {
+    font-size: 0.8rem;
+  }
+  #card2 {
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    right: 220px;
+    bottom: 40px;
+    
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .circle {
+    width: 45px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(230, 83, 60);
+  }
+  .play{
+    position: absolute;
+    left: 26px;
+    top: 32px;
+  }
+  
 }
