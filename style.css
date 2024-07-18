@@ -371,7 +371,7 @@ main {
     left: 26px;
     top: 32px;
   }
-  /* main section habit area */
+  /*---------------------- main section habit area */
   .habit-content {
     padding-top: 0;
   }
@@ -394,5 +394,34 @@ main {
   }
   .img-container {
     width: 80%;
+  }
+
+  /* ----------------------extra-mile-container-------------- */
+
+  .extra-mile-container{
+    padding-top: 50px;
+  }
+  .extra-mile-content{
+    flex-direction: column;
+    padding: 0px 10px 0px 0px ;
+  }
+  .extra-mile-left-area, .extra-mile-right-area{
+    width: 80%;
+
+  }
+  .extra-mile-left-area h2{
+    padding-top: 20px;
+    font-size: 2rem;
+  }
+  .extra-mile-left-area p{
+    /* font-size: 0.9rem; */
+    margin-top: 10px;
+  }
+  .extra-mile-left-area button{
+    font-size: 1rem;
+    padding: 13px 96px;
+  }
+  .extra-mile-right-area{
+    padding: 20px;
   }
 }
