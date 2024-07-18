@@ -17,10 +17,10 @@ header {
     ),
     linear-gradient(0deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
-main{
-    background-color: black;
+main {
+  background-color: black;
 
-    /* border: 3px solid white; */
+  /* border: 3px solid white; */
 }
 
 * {
@@ -60,7 +60,7 @@ main{
   padding: 20px;
 }
 .nav-name h2 {
-  font-size: 36px;
+  font-size: 2.8rem;
   font-weight: 800;
 }
 .nav-options {
@@ -72,9 +72,9 @@ main{
   border-radius: 39px;
 }
 .nav-item {
-  padding: 8px 20px;
+  padding: 14px 25px;
   border-radius: 46px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: white;
 }
@@ -96,25 +96,25 @@ main{
 }
 .banner-left-area {
   width: 40%;
-  margin-top: 96px;
+  /* margin-top: 20px; */
   margin-right: 167px;
   margin-bottom: 76px;
 }
 .banner-left-area h1 {
-  font-size: 78px;
+  font-size: 4rem;
   font-weight: 900;
   color: white;
   margin-bottom: 28px;
 }
 .banner-left-area p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 28px;
 }
 .btn-primary {
   background-color: rgb(230, 83, 60);
   color: white;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 600;
   border-radius: 42px;
   padding: 15px 32px;
@@ -125,7 +125,7 @@ main{
   border: 1px solid rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0);
   color: white;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 600;
   border-radius: 42px;
   padding: 15px 32px;
@@ -151,12 +151,12 @@ main{
   padding: 20px;
 }
 .card-1 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 900;
   /* text-align: center; */
 }
 .card-1 p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 #card1 {
@@ -204,71 +204,92 @@ main{
   text-align: center;
 }
 .habit-heading-area h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
   color: white;
 }
-.habit-heading-area p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1rem;
+.habit-heading-area p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
 }
 
-
-.habit-image-area{
-    /* display: grid; 
+.habit-image-area {
+  /* display: grid; 
     margin: auto;
     grid-template-columns: repeat(4, 1fr); */
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
 }
-.img-container{
+.img-container {
   /* border: 1px solid rebeccapurple; */
   width: 18%;
   justify-content: space-between;
-  
-  
 }
-.img-container img{
-    width: 100%;
-    border-radius: 50% ;
-    /* margin-left: 38px; */
+.img-container img {
+  width: 100%;
+  border-radius: 50%;
+  /* margin-left: 38px; */
 }
-.img-container h3{
-  font-size: 1rem;
+.img-container h3 {
+  font-size: 1.8rem;
   font-weight: 600;
   color: white;
   text-align: center;
   margin-top: 30px;
 }
 
-.img-container p{
-  font-size: 0.9rem;
+.img-container p {
+  font-size: 1.2rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.5);;
+  color: rgba(255, 255, 255, 0.5);
   text-align: center;
   padding-bottom: 20px;
+  letter-spacing: 0.3px;
   /* margin-top: 30px; */
 }
 
 /* main section habit area end  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* extra-mile-container start  */
+.extra-mile-container {
+  width: 80vw;
+  margin: 0 auto;
+  padding-top: 100px;
+  
+}
+.extra-mile-content {
+  border-radius: 18px;
+  background-color: rgb(34, 34, 34);
+  padding: 40px 80px 40px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.extra-mile-left-area {
+  width: 40%;
+}
+.extra-mile-left-area h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.extra-mile-left-area p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin-bottom: 34px;
+}
+.extra-mile-right-area{
+  width: 40%;
+  padding-top: 10px;
+}
+.extra-mile-right-area img{
+  width: 100%;
+  border-radius: 18px;
+}
+/* extra-mile-container end  */
 
 /* Responsive area  */
 @media screen and (max-width: 576px) {
@@ -351,27 +372,27 @@ main{
     top: 32px;
   }
   /* main section habit area */
-  .habit-content{
+  .habit-content {
     padding-top: 0;
   }
   .habit-heading-area {
     margin: 0;
     width: 100%;
   }
-  .habit-heading-area h2{
+  .habit-heading-area h2 {
     font-size: 2rem;
     padding: 5px 0px;
   }
-  .habit-heading-area p{
+  .habit-heading-area p {
     font-size: 1rem;
     padding: 5px 0px;
   }
-  .habit-image-area{
+  .habit-image-area {
     margin-top: 50px;
     flex-direction: column;
     gap: 30px;
   }
-  .img-container{
+  .img-container {
     width: 80%;
   }
 }
