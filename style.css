@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 body {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  margin: 0 auto;
   /* background-color: black; */
   font-family: "Inter", sans-serif;
   background-repeat: no-repeat;
@@ -18,6 +19,8 @@ header {
 }
 main{
     background-color: black;
+
+    /* border: 3px solid white; */
 }
 
 * {
@@ -82,7 +85,8 @@ main{
 
 /* banner section style start  */
 .banner-area {
-  width: 100vw;
+  width: calc(100% - 5px);
+  /* border: 2px solid white;  */
 }
 .banner-content {
   width: 80vw;
@@ -190,13 +194,13 @@ main{
   width: 80vw;
   margin: 0px auto;
   padding-top: 100px;
-  border: 1px solid steelblue;
+  /* border: 1px solid steelblue; */
 }
 
 .habit-heading-area {
   width: 65vw;
   margin: 0 auto;
-  border: 1px solid saddlebrown;
+  /* border: 1px solid saddlebrown; */
   text-align: center;
 }
 .habit-heading-area h2 {
@@ -205,27 +209,68 @@ main{
   color: white;
 }
 .habit-heading-area p{
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
 }
 
 
 .habit-image-area{
-    /* display: grid; */
-    /* margin: auto;
+    /* display: grid; 
+    margin: auto;
     grid-template-columns: repeat(4, 1fr); */
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
+}
+.img-container{
+  /* border: 1px solid rebeccapurple; */
+  width: 18%;
+  justify-content: space-between;
+  
+  
 }
 .img-container img{
-    width: 60%;
-    border-radius: 100px ;
+    width: 100%;
+    border-radius: 50% ;
+    /* margin-left: 38px; */
+}
+.img-container h3{
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.img-container p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);;
+  text-align: center;
+  padding-bottom: 20px;
+  /* margin-top: 30px; */
 }
 
 /* main section habit area end  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive area  */
 @media screen and (max-width: 576px) {
   .nav-options {
     border: none;
@@ -304,5 +349,29 @@ main{
     position: absolute;
     left: 26px;
     top: 32px;
+  }
+  /* main section habit area */
+  .habit-content{
+    padding-top: 0;
+  }
+  .habit-heading-area {
+    margin: 0;
+    width: 100%;
+  }
+  .habit-heading-area h2{
+    font-size: 2rem;
+    padding: 5px 0px;
+  }
+  .habit-heading-area p{
+    font-size: 1rem;
+    padding: 5px 0px;
+  }
+  .habit-image-area{
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .img-container{
+    width: 80%;
   }
 }
