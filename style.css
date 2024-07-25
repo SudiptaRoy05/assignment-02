@@ -6,16 +6,26 @@ body {
   margin: 0 auto;
   /* background-color: black; */
   font-family: "Inter", sans-serif;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 
 header {
   background: linear-gradient(
       180deg,
-      rgb(17, 17, 17),
-      rgba(119, 119, 119, 0) 100%
+      rgb(17, 17, 17) ,
+      rgba(51, 51, 51, 0) 100%
     ),
-    linear-gradient(0deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    linear-gradient(0deg, rgb(17, 17, 17), rgba(51, 51, 51, 0) 100%);
+
+
+
+
+
+
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 main {
   background-color: black;
@@ -101,7 +111,7 @@ main {
   margin-bottom: 76px;
 }
 .banner-left-area h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 900;
   color: white;
   margin-bottom: 28px;
@@ -334,8 +344,8 @@ main {
     /* transform: translateX(200px) translateY(-400px); */
     padding: 10px;
     position: absolute;
-    right: 57px;
-    bottom: 247px;
+    right: 67px;
+    bottom: 200px;
   }
 
   .card-1 h2 {
@@ -351,7 +361,7 @@ main {
     height: 60px;
     position: absolute;
     right: 220px;
-    bottom: 40px;
+    bottom: 0px;
 
     padding: 10px;
     display: flex;
@@ -369,7 +379,7 @@ main {
     display: block;
     position: absolute;
     left: 26px;
-    top: 32px;
+    top: 34px;
   }
   /*---------------------- main section habit area */
   .habit-content {
