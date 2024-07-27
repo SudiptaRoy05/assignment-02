@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap");
 
 body {
   width: 100%;
@@ -10,22 +10,11 @@ body {
 }
 
 header {
-  background: linear-gradient(
-      180deg,
-      rgb(17, 17, 17) ,
-      rgba(51, 51, 51, 0) 100%
-    ),
+  background: linear-gradient(180deg, rgb(17, 17, 17), rgba(51, 51, 51, 0) 100%),
     linear-gradient(0deg, rgb(17, 17, 17), rgba(51, 51, 51, 0) 100%);
-
-
-
-
-
-
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 main {
   background-color: black;
@@ -145,6 +134,7 @@ main {
   margin-right: 10%;
 }
 #banner-inner {
+  font-family: "Playwrite BE VLG", cursive;
   font-size: 4.75rem;
   font-weight: 400;
 }
@@ -268,7 +258,6 @@ main {
   width: 80vw;
   margin: 0 auto;
   padding-top: 100px;
-  
 }
 .extra-mile-content {
   border-radius: 18px;
@@ -291,15 +280,132 @@ main {
   letter-spacing: 0.3px;
   margin-bottom: 34px;
 }
-.extra-mile-right-area{
+.extra-mile-right-area {
   width: 40%;
   padding-top: 10px;
 }
-.extra-mile-right-area img{
+.extra-mile-right-area img {
   width: 100%;
   border-radius: 18px;
 }
 /* extra-mile-container end  */
+
+/* traning-exercises-container style  */
+
+.traning-exercises-content {
+  width: 80vw;
+
+  margin: 100px auto 0px;
+  border: 1px solid salmon;
+}
+.traning-exercises-title-area {
+  color: white;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.traning-exercises-title-area h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+  
+}
+.traning-exercises-title-area p{
+  font-size: 1rem;
+}
+
+
+/* bmi style  ===================================================*/
+.bmi-heading{
+  width: 40vw;
+  margin: 100px auto;
+}
+.bmi-heading h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.bmi-heading p, .bmi-calculate p{
+  font-size: 1rem;
+}
+
+.bmi-content-container{
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+  padding-bottom: 40px;
+
+}
+.bmi-content{
+  display: flex;
+  justify-content: space-around;
+}
+/* .bmi-calculator-chart{
+  padding-top: 50px;
+} */
+.bmi-calculator-chart h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 80px 0px;
+}
+
+table, tr, th, td{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px 35px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.bmi-calculate h3{
+  font-size: 2rem;
+  font-weight: 900;
+  padding-top: 80px;
+}
+.bmi-height-weight{
+  padding-top: 54px;
+  /* margin-right: 10px;
+  margin-bottom: 10px; */
+}
+.height-weight{
+  width: 30%;
+  padding: 20px 45px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px;
+}
+
+.age-sex{
+  width: 30%;
+  padding: 20px 45px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px;
+}
+#selectSex{
+  width: 41%;
+}
+
+#selects{
+  width: 85.3%;
+  padding: 20px 45px;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px;
+  
+} 
+.bmi-btn{
+  margin-top: 20px;
+  margin-left: 10px;
+}
 
 /* Responsive area  */
 @media screen and (max-width: 576px) {
@@ -318,13 +424,19 @@ main {
     flex-direction: column;
     padding: 0;
   }
+
+  #banner-inner {
+    font-family: "Playwrite BE VLG", cursive;
+    font-size: 2.5rem;
+    /* font-weight: 400; */
+  }
   .banner-left-area {
     width: 80vw;
     margin: 0 auto 20px;
   }
   .banner-left-area h1 {
     font-size: 2rem;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .btn {
     display: flex;
@@ -338,13 +450,17 @@ main {
   .banner-right-area {
     width: 100%;
   }
+  .banner-right-area img {
+    width: 100%;
+    margin-left: 30px;
+  }
   #card1 {
     width: 135.91px;
     height: 64.09px;
     /* transform: translateX(200px) translateY(-400px); */
     padding: 10px;
     position: absolute;
-    right: 67px;
+    right: 17px;
     bottom: 200px;
   }
 
@@ -408,30 +524,94 @@ main {
 
   /* ----------------------extra-mile-container-------------- */
 
-  .extra-mile-container{
+  .extra-mile-container {
     padding-top: 50px;
   }
-  .extra-mile-content{
+  .extra-mile-content {
     flex-direction: column;
-    padding: 0px 10px 0px 0px ;
+    padding: 0px 10px 0px 0px;
   }
-  .extra-mile-left-area, .extra-mile-right-area{
+  .extra-mile-left-area,
+  .extra-mile-right-area {
     width: 80%;
-
   }
-  .extra-mile-left-area h2{
+  .extra-mile-left-area h2 {
     padding-top: 20px;
     font-size: 2rem;
   }
-  .extra-mile-left-area p{
+  .extra-mile-left-area p {
     /* font-size: 0.9rem; */
     margin-top: 10px;
   }
-  .extra-mile-left-area button{
+  .extra-mile-left-area button {
     font-size: 1rem;
     padding: 13px 96px;
+    width: 100%;
   }
-  .extra-mile-right-area{
+  .extra-mile-right-area {
     padding: 20px;
   }
+
+  /* BMI section  */
+  .bmi-heading {
+    width: 80vw;
+    margin: 68px auto;
+    
+}
+.bmi-heading h2{
+  font-size: 2rem;
+}
+.bmi-calculator-chart h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 47px 0px;
+}
+
+
+.bmi-calculate h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-top: 47px;
+}
+.bmi-calculate p {
+  padding-top: 25px;
+}
+.bmi-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .bmi-content{
+    padding: 0px 40px 0 40px;
+  }
+  .bmi-input-area{
+    width: 100%;
+  }
+  .bmi-height-weight{
+    display: flex;
+
+  }
+  .height-weight{
+    width: 50%;
+    padding-left: 20px;
+  }
+  .bmi-age-sex{
+    display: flex;
+    width: 100%;
+  }
+  .age-sex{
+    width: 36%;
+    padding-left: 20px;
+  }
+  #selectSex{
+    width: 50%;
+  }
+  #selects{
+    width: 95%;
+  }
+  .btn-primary{
+    padding: 15px 61px;
+  }
+  
+
+
 }
