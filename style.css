@@ -131,17 +131,25 @@ main {
   padding: 15px 32px;
   /* margin-left: 14px; */
 }
-.banner-right-area {
-  margin-right: 10%;
-}
+
 #banner-inner {
   font-family: "Playwrite BE VLG", cursive;
   font-size: 4.75rem;
   font-weight: 400;
 }
 
-.banner-right-area img {
-  width: 100%;
+.banner-right-area {
+  margin-right: 10%;
+  width: 23%;
+  height: 580px;
+  /* border: 1px solid steelblue; */
+  position: relative;
+}
+.banner-right-area-content{
+  position: absolute;
+}
+.banner-right-area-content img {
+  width: 350px;
 }
 .card-1 {
   border: 1px solid white;
@@ -152,7 +160,7 @@ main {
   padding: 20px;
 }
 .card-1 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   /* text-align: center; */
 }
@@ -161,19 +169,19 @@ main {
 }
 
 #card1 {
-  width: 193px;
-  height: 80px;
-  /* transform: translateX(200px) translateY(-400px); */
-  position: absolute;
-  right: 200px;
-  bottom: 600px;
+  width: 180px;
+  height: 60px;
+  position: relative;
+  right: -220px;
+  bottom: 470px;
 }
+
 #card2 {
-  width: 206px;
-  height: 96px;
-  position: absolute;
-  right: 570px;
-  bottom: 350px;
+  width: 180px;
+  height: 60px;
+  position: relative;
+  right: 120px;
+  bottom: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -426,7 +434,6 @@ td {
 .positions {
   position: relative;
   left: -120px;
-  /* right: 120px; */
   bottom: 70px;
 }
 
@@ -446,6 +453,9 @@ td {
   .banner-content {
     flex-direction: column;
     padding: 0;
+  }
+  .banner-area{
+    padding-bottom: 1px;
   }
 
   #banner-inner {
@@ -473,18 +483,21 @@ td {
   .banner-right-area {
     width: 100%;
   }
-  .banner-right-area img {
-    width: 100%;
-    margin-left: 30px;
+  .banner-right-area-content{
+    width: 75%;
+    margin: 0px auto;
+    position: relative;
+  }
+  .banner-right-area-content img {
+    width: 350px;
   }
   #card1 {
     width: 135.91px;
     height: 64.09px;
-    /* transform: translateX(200px) translateY(-400px); */
     padding: 10px;
     position: absolute;
-    right: 17px;
-    bottom: 200px;
+    left: 75%;
+    top: 65px;
   }
 
   .card-1 h2 {
@@ -499,8 +512,8 @@ td {
     width: 150px;
     height: 60px;
     position: absolute;
-    right: 220px;
-    bottom: 0px;
+    left: -14%;
+    bottom: 143px;
 
     padding: 10px;
     display: flex;
@@ -633,7 +646,8 @@ td {
     width: 95%;
   }
   .btn-primary {
-    padding: 15px 61px;
+    padding: 13px 50px;
+    font-size: 1rem;
   }
 
   /* our team  */
