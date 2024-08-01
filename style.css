@@ -132,25 +132,33 @@ main {
   /* margin-left: 14px; */
 }
 
-#banner-inner {
+#banner-inner {  height: 80%;
   font-family: "Playwrite BE VLG", cursive;
   font-size: 4.75rem;
   font-weight: 400;
 }
 
 .banner-right-area {
-  margin-right: 10%;
-  width: 23%;
-  height: 580px;
+  width: 40%;
+  height: 58vh;
+  background-image: url(./images/Images-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
   /* border: 1px solid steelblue; */
-  position: relative;
 }
-.banner-right-area-content{
+
+.banner-right-img{
+  width: 60%;
+  height: 58vh;
+  margin: 0px auto;
+}
+
+.position{
   position: absolute;
 }
-.banner-right-area-content img {
-  width: 350px;
-}
+
+
 .card-1 {
   border: 1px solid white;
   border-radius: 12px;
@@ -172,16 +180,16 @@ main {
   width: 180px;
   height: 60px;
   position: relative;
-  right: -220px;
-  bottom: 470px;
+  left: 350px;
+  top: -450px;
 }
 
 #card2 {
   width: 180px;
   height: 60px;
   position: relative;
-  right: 120px;
-  bottom: 300px;
+  right: -20px;
+  bottom: 280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -496,8 +504,8 @@ td {
     height: 64.09px;
     padding: 10px;
     position: absolute;
-    left: 75%;
-    top: 65px;
+    left: 197px;
+    top: 61px;
   }
 
   .card-1 h2 {
@@ -512,8 +520,8 @@ td {
     width: 150px;
     height: 60px;
     position: absolute;
-    left: -14%;
-    bottom: 143px;
+    right: -139px;
+    bottom: 123px;
 
     padding: 10px;
     display: flex;
@@ -535,7 +543,7 @@ td {
   }
   /*---------------------- main section habit area */
   .habit-content {
-    padding-top: 0;
+    padding-top: 5px;
   }
   .habit-heading-area {
     margin: 0;
