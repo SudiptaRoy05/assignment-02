@@ -225,6 +225,8 @@ main {
   margin: 0 auto;
   /* border: 1px solid saddlebrown; */
   text-align: center;
+  position: relative;
+  z-index: 100;
 }
 .habit-heading-area h2 {
   font-size: 3.5rem;
@@ -298,7 +300,7 @@ main {
   margin-bottom: 14px;
 }
 .extra-mile-left-area p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 400;
   letter-spacing: 0.3px;
   margin-bottom: 34px;
@@ -364,7 +366,14 @@ td {
   font-size: 2rem;
   font-weight: 900;
   padding-top: 80px;
+  margin-bottom: 20px;
 }
+
+.bmi-calculate p{
+  margin-bottom: 20px;
+  width: 85%;
+}
+
 .bmi-input-area{
   width: 100%;
 }
@@ -719,6 +728,7 @@ td {
     padding-top: 47px;
   }
   .bmi-calculate p {
+    width: 100%;
     padding-top: 25px;
   }
   .bmi-content {
