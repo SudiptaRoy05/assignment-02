@@ -425,6 +425,9 @@ td {
 }
 
 /* meet our team style  */
+.team-section-container{
+  padding-bottom: 50px;
+}
 .team-heading {
   text-align: center;
   padding: 80px 0px 0px 0px;
@@ -544,6 +547,62 @@ td {
   left: 35px;
   bottom: -270px;
 }
+
+/* footer section style  */
+.footer-section{
+  width: 100%;
+  /* padding-top: 80px; */
+  background-color: rgb(34, 34, 34);
+}
+
+.rights{
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 20px 0px 40px;
+}
+.footer-content{
+  width: 80%;
+  margin: 0px auto 30px;
+  display: flex;
+  padding: 50px 0px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-left-area{
+  width: 45%;
+  /* border: 1px salmon solid; */
+}
+.footer-left-area h3{
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.footer-left-area p{
+  font-size: 1.3rem;
+}
+.footer-right-area{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-right-area h3{
+  font-size: 2rem;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.footer-right-area li{
+  list-style: none;
+  padding: 20px 0px;
+  margin-left: -37px;
+  cursor: pointer;
+  font-size: 1.5rem;
+
+} 
+
+
 
 /* Responsive area  */
 @media screen and (max-width: 576px) {
@@ -790,5 +849,31 @@ td {
   
   .positions {
     left: 5px;
+  }
+  /* footer section styles  */
+
+  .footer-section{
+    width: 90%;
+    border: 1px solid salmon;
+  }
+  .footer-content{
+    width: 90%;
+    border: 1px solid seagreen;
+  }
+  .footer-content{
+    width: 80%;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-left-area{
+    width: 100%;
+  }
+  .footer-right-area{
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer-right-area li{
+    padding: 10px 0px;
+    font-size: 1rem;
   }
 }
