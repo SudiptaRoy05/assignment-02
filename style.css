@@ -354,8 +354,10 @@ td {
   border-collapse: collapse;
   text-align: left;
 }
+
+
 .bmi-calculate{
-  width: 40vw;
+  width: 50%;
 }
 
 .bmi-calculate h3 {
@@ -363,25 +365,15 @@ td {
   font-weight: 900;
   padding-top: 80px;
 }
-.bmi-height-weight {
-  padding-top: 54px;
-  /* margin-right: 10px;
-  margin-bottom: 10px; */
-}
-.height-weight {
-  width: 30%;
-  padding: 20px 45px;
-  font-size: 1rem;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: rgba(255, 255, 255, 0.6);
-  border: none;
-  border-radius: 8px;
-  text-align: left;
-  margin: 10px;
+.bmi-input-area{
+  width: 100%;
 }
 
-.age-sex {
-  width: 30%;
+.bmi-height-weight{
+  width: 100%;
+}
+.height-weight{
+  width: 32%;
   padding: 20px 45px;
   font-size: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
@@ -389,26 +381,38 @@ td {
   border: none;
   border-radius: 8px;
   text-align: left;
-  margin: 10px;
-}
-#selectSex {
-  width: 41%;
+  margin: 10px 10px 10px 0px;
 }
 
-#selects {
-  width: 85.3%;
+.bmi-age-sex{
+  width: 100%;
+}
+.age-sex{
+  width: 41.5%;
   padding: 20px 45px;
-  border: none;
-  color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
   border-radius: 8px;
   text-align: left;
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
 }
-.bmi-btn {
-  margin-top: 20px;
-  margin-left: 10px;
+.age-sex option{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.selectss{
+  width: 84.2%;
+  padding: 20px 45px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px 10px 10px 0px;
 }
 
 /* meet our team style  */
@@ -707,7 +711,7 @@ td {
   }
 
   .bmi-calculate{
-    width: 90%;
+    width: 100%;
   }
   .bmi-calculate h3 {
     font-size: 1.5rem;
@@ -740,14 +744,13 @@ td {
     width: 100%;
   }
   .age-sex {
-    width: 36%;
     padding-left: 20px;
   }
   #selectSex {
-    width: 50%;
+    width: 66%;
   }
   #selects {
-    width: 95%;
+    width: 97%;
   }
   .btn-primary {
     padding: 13px 50px;
