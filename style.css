@@ -71,6 +71,7 @@ main {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
+  margin: 10px 0px;
 }
 .nav-item {
   padding: 14px 25px;
@@ -103,7 +104,7 @@ main {
   margin-bottom: 76px;
 }
 .banner-left-area h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 900;
   color: white;
   line-height: 1;
@@ -295,7 +296,7 @@ main {
   width: 40%;
 }
 .extra-mile-left-area h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
   margin-bottom: 14px;
 }
@@ -728,6 +729,9 @@ td {
   }
   .img-container {
     width: 80%;
+  }
+  .img-container h3{
+    font-size: 1.5rem;
   }
 
   /* ----------------------extra-mile-container-------------- */
