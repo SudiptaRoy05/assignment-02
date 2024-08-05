@@ -111,7 +111,7 @@ main {
   margin-bottom: 28px;
 }
 .banner-left-area p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 400;
   margin-bottom: 28px;
 }
@@ -236,7 +236,7 @@ main {
 }
 .habit-heading-area p {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .habit-image-area {
@@ -326,7 +326,7 @@ main {
   font-weight: 900;
 }
 .bmi-heading p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .bmi-content-container {
@@ -438,7 +438,7 @@ td {
   font-weight: 900;
 }
 .team-heading {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .team-image-area {
   width: 80vw;
@@ -599,7 +599,7 @@ td {
   padding: 10px 0px;
   margin-left: -37px;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 
 } 
 
