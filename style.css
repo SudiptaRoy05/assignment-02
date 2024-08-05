@@ -421,7 +421,7 @@ td {
   border: none;
   border-radius: 8px;
   text-align: left;
-  margin: 10px 10px 10px 0px;
+  margin: 10px 10px 25px 0px;
 }
 
 /* meet our team style  */
@@ -853,12 +853,12 @@ td {
   /* footer section styles  */
 
   .footer-section{
-    width: 90%;
-    border: 1px solid salmon;
+    width: 100%;
+    /* border: 1px solid salmon; */
   }
   .footer-content{
-    width: 90%;
-    border: 1px solid seagreen;
+    width: 100%;
+    /* border: 1px solid seagreen; */
   }
   .footer-content{
     width: 80%;
@@ -868,6 +868,12 @@ td {
   .footer-left-area{
     width: 100%;
   }
+  .footer-left-area h3{
+    font-size: 2.8rem;
+  }
+  .footer-left-area p{
+    font-size: 1.1rem;
+  }
   .footer-right-area{
     width: 100%;
     flex-direction: column;
@@ -875,5 +881,8 @@ td {
   .footer-right-area li{
     padding: 10px 0px;
     font-size: 1rem;
+  }
+  .footer-right-area h3{
+    font-size: 1.8rem;
   }
 }
