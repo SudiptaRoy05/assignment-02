@@ -61,8 +61,8 @@ main {
   padding: 20px;
 }
 .nav-name h2 {
-  font-size: 2.8rem;
-  font-weight: 800;
+  font-size: 3.5rem;
+  font-weight: 900;
 }
 .nav-options {
   display: flex;
@@ -595,7 +595,7 @@ td {
 
 .footer-right-area li{
   list-style: none;
-  padding: 20px 0px;
+  padding: 10px 0px;
   margin-left: -37px;
   cursor: pointer;
   font-size: 1.5rem;
