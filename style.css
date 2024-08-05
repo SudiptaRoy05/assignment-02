@@ -639,6 +639,9 @@ td {
     font-size: 2rem;
     /* margin-top: 20px; */
   }
+  .banner-left-area p{
+    font-size: 1rem;
+  }
   .btn {
     display: flex;
     gap: 20px;
@@ -752,7 +755,7 @@ td {
     font-size: 2rem;
   }
   .extra-mile-left-area p {
-    /* font-size: 0.9rem; */
+    font-size: 1rem;
     margin-top: 10px;
   }
   .extra-mile-left-area button {
