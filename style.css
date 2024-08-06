@@ -7,6 +7,7 @@ body {
   /* background-color: black; */
   font-family: "Inter", sans-serif;
   /* background-repeat: no-repeat; */
+  /* border: 1px solid darkgoldenrod; */
 }
 
 header {
@@ -427,7 +428,7 @@ td {
 
 /* meet our team style  */
 .team-section-container{
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 .team-heading {
   text-align: center;
@@ -549,6 +550,58 @@ td {
   bottom: -270px;
 }
 
+/* out equipment areas style  */
+
+.equipment-content{
+  width: 80%;
+  margin: 0px auto;
+  padding-bottom: 70px;
+  /* border: 1px solid forestgreen; */
+}
+
+.equipment-hedding{
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+}
+.equipment-hedding h3{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.equipment-hedding p{
+  font-size: 1.3rem;
+}
+.equipment-image-area{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 70px;
+  text-align: center;
+  /* gap: 20px; */
+}
+.image-area{
+  width: 100%;
+  /* border: 1px solid violet; */
+  /* padding: 10px; */
+}
+.image-area img{
+  width: 90%;
+  margin-bottom: 35px;
+}
+
+.image-area img:hover{
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+.image-area-title{
+  font-size: 1.4rem;
+}
+.image-area-description{
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+
 /* footer section style  */
 .footer-section{
   width: 100%;
@@ -601,8 +654,7 @@ td {
   cursor: pointer;
   font-size: 1.4rem;
 
-} 
-
+}
 
 
 /* Responsive area  */
@@ -857,6 +909,27 @@ td {
   .positions {
     left: 5px;
   }
+
+  /* equipment section  */
+  .equipment-image-area{
+    grid-template-columns: 1fr;
+  }
+
+  .equipment-hedding h3{
+    font-size: 2rem;
+    
+  }
+  .equipment-hedding p{
+    font-size: 1.1rem;
+  }
+
+  .image-area-title{
+    font-size: 1.2rem;
+  }
+  .image-area-description{
+    font-size: 1rem;
+  }
+
   /* footer section styles  */
 
   .footer-section{
