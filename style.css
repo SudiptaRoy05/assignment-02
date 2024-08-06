@@ -586,7 +586,7 @@ td {
 }
 .image-area img{
   width: 90%;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .image-area img:hover{
@@ -597,7 +597,7 @@ td {
   font-size: 1.4rem;
 }
 .image-area-description{
-  padding: 20px;
+  padding: 20px 20px 30px;
   font-size: 1.2rem;
 }
 
@@ -911,10 +911,14 @@ td {
   }
 
   /* equipment section  */
+
   .equipment-image-area{
     grid-template-columns: 1fr;
   }
 
+  .equipment-hedding{
+    width: 100%;
+  }
   .equipment-hedding h3{
     font-size: 2rem;
     
