@@ -600,7 +600,20 @@ td {
   padding: 20px 20px 30px;
   font-size: 1.2rem;
 }
-
+.see{
+  text-align: center;
+}
+.see-more {
+  /* border: 1px solid rgba(255, 255, 255); */
+  border-radius: 18px;
+  padding: 8px 15px;
+  background-color: rgb(230, 83, 60);
+  cursor: pointer;
+}
+.see-more:hover{
+  background-color: rgba(255, 255, 255);
+  color: rgb(230, 83, 60);
+}
 
 /* footer section style  */
 .footer-section{
